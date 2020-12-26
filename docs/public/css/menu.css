@@ -100,8 +100,10 @@ margin-left: 20px; }
         margin-top:1rem;
         flex: .5;
         display: flex;
-        justify-content: center;
-        margin-bottom: 0; } }
+        
+        margin-bottom: 0;
+      margin-left: 47px;
+      } }
 
 
 
@@ -207,7 +209,8 @@ margin-left: 20px; }
 
       width: initial;
       height: initial;
-      flex: 1; } }
+      flex: 1; 
+      margin-right: 3rem;} }
 
 
 

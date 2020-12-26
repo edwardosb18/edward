@@ -181,20 +181,20 @@ z-index: 50;
 @media screen and (min-width: 830px) {
     
   .icono__flotante{ 
-    right: 0%;
-font-size: 4rem;
+   
+
+width: 4%;
+right: 2%;
 
     } }
 
 
 
-.fa-whatsapp1 {
- border-radius: 25%;
-background-color: green;
-color: white;
-transition: background-color .25s;
-}           
-.fa-whatsapp1:hover{
-  background-color: var(--color-botones);
+.logo__whatsapp{
+  width: 100%;
+  opacity: 1;
+}
 
+.logo__whatsapp:hover{
+  opacity: .8;
 }

@@ -76,12 +76,21 @@ figure,h2{margin: 0;}
               /*productos__video*/
 
   .productos__video {
-    width: 56%;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
     display: block;
     padding: 1rem;
     animation: productos__video 2.5s; }
+
+
+    @media screen and (min-width: 830px) {
+    
+      .productos__video {
+        width: 56%;} }
+
+
+
 
     /*animacion*/
 @keyframes productos__video {
