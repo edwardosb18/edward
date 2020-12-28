@@ -113,10 +113,31 @@ figure {
   display: flex;
   justify-content: center;
   
-  animation: politica__animacion 2s forwards;
+  animation: politica__animacion1 2s forwards;
+  animation-play-state: var(--stop7);
+
+  
 }
 
-@keyframes politica__animacion{
+
+@media screen and (min-width: 830px) {
+      
+.politica__animacion{animation: politica__animacion 2s forwards;
+  animation-play-state: running;}
+
+
+  @keyframes politica__animacion{
+    from {
+      transform: scale(0); }
+     }
+
+
+     }
+
+
+
+
+@keyframes politica__animacion1{
   from {
     transform: scale(0); } }
 
