@@ -450,7 +450,17 @@ and valores__imagen:nth-child(2)*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-  } }
+  } 
+
+
+  @keyframes certificaciones__amimacion {
+    from {opacity:0;transform: translate(100%);}
+    
+  }
+
+
+
+}
 
 
 /*animacion*/
@@ -468,10 +478,7 @@ and valores__imagen:nth-child(2)*/
    
   } */
 
-  @keyframes certificaciones__amimacion {
-    from {opacity:0;transform: translate(100%);}
-    
-  }
+  
 
 
 

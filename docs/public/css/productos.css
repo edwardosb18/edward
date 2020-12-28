@@ -336,7 +336,7 @@ justify-content: center;
 
 .detalles__img{
   width: 100%;
-  
+  padding-left: 26px;
   object-fit: cover;
 }
 
@@ -345,9 +345,9 @@ justify-content: center;
 @media screen and (min-width: 830px) {
     
   .detalles__img {
-    width: 50%
+    width: 50%;
    
-     
+    padding-left: 0;
        
       }}
 
@@ -409,8 +409,18 @@ justify-content: center;
 
 .detalles__titulo{
 
-  text-align: initial;
+  text-align: center;
 }
+
+
+@media screen and (min-width: 830px) {
+    
+  .detalles__titulo{
+    
+    
+    
+  text-align: initial;
+      }}
 
 
 
@@ -513,6 +523,7 @@ border: 1px solid;
 
     .fig{
       display: block;
+      padding-left: 26px;
     }
   
     @media screen and (min-width: 830px) {
