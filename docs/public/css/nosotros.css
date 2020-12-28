@@ -226,6 +226,10 @@ font-size:var(--fontsize-normal);}
       /* valores*/
 .valores {
   
+
+display: flex;
+flex-direction: column;
+
   text-align: center;
   background-color: white; }
 
@@ -233,7 +237,8 @@ font-size:var(--fontsize-normal);}
   @media screen and (min-width: 830px) {
 
     .valores {
-      display: flex; } }
+      display: flex; 
+    flex-direction: row;} }
 
 
 
@@ -241,6 +246,7 @@ font-size:var(--fontsize-normal);}
   /*valores__header*/
 
   .valores__header {
+    order:2;
     display: flex;
     align-items: center;
   margin:0; }
@@ -249,7 +255,9 @@ font-size:var(--fontsize-normal);}
     @media screen and (min-width: 830px) {
       
       .valores__header {
-        flex: 1; } }
+        order:0;
+        flex: 1;
+         } }
   
 
 
@@ -428,7 +436,7 @@ and valores__imagen:nth-child(2)*/
   background-color:var(--color-botones);
   padding: 1rem;
   text-align: center;
-  animation: certificaciones__amimacion 2s forwards;
+  animation: certificaciones__amimacion 4s  ;
   animation-play-state: var(--stop1);
 
 }
@@ -442,21 +450,28 @@ and valores__imagen:nth-child(2)*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-  opacity: 0} }
+  } }
 
 
 /*animacion*/
-@keyframes certificaciones__amimacion {
-  25%{opacity: 0;transform: translate(100%)}
+/* @keyframes certificaciones__amimacion {
+  25%{opacity: 0;}
   50% {opacity: 0;
      }
-  75%{opacity: 0;}
+  75%{opacity: 0;transform: translate(100%)}
   80%{opacity: .8;}
   100%{opacity: 1;}
+
   
+
+  
+   
+  } */
+
+  @keyframes certificaciones__amimacion {
+    from {opacity:0;transform: translate(100%);}
+    
   }
-
-
 
 
 
@@ -468,8 +483,8 @@ and valores__imagen:nth-child(2)*/
   width: 100%;
   font-size: var(--fontsize-titulo); 
 text-align: center;
-opacity: 0;
-animation: certificaciones__titulo 1s  forwards;
+
+animation: certificaciones__titulo 3s  ;
   animation-play-state: var(--stop3);
 
 }
@@ -481,15 +496,10 @@ animation: certificaciones__titulo 1s  forwards;
     --fontsize-titulo:2.5rem;}
         }
 /*animacion*/
-    @keyframes certificaciones__titulo {
-       25%{opacity: 0;transform: translate(100%)}
-          50% {opacity: 0;
-             }
-          75%{opacity: 0;}
-          80%{opacity: .8;}
-          100%{opacity: 1;;}
-          
-          }
+@keyframes certificaciones__titulo {
+  from {opacity:0;transform: translate(100%);}
+  
+}
         
 
 

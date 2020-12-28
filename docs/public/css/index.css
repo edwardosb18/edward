@@ -252,13 +252,13 @@ display: block; }
   background-color:var(--color-botones);
   padding-bottom: 2rem;
   display: flex;
-  animation: video 3s 2s;
-  animation-play-state: var(--stop); }
+  animation: video 3s forwards ;
+  animation-play-state: var(--stop6); }
 
   /*animacion*/
 @keyframes video {
   from {
-    transform: translate(-100%); } }
+   opacity: 0; } }
 
 
         /*video__texto*/

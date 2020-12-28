@@ -217,6 +217,7 @@ figure,h2{margin: 0;}
           /* productos__img*/
 
   .productos__img {
+    height: 97px;
     width: 100%;
     object-fit: cover; }
 
@@ -306,20 +307,49 @@ height: 15%;
 
 .detalles__imagen{
   background-color: rgb(236, 236, 236);
-  flex: 2;
-  padding: 1rem 0;
+    flex: 2;
+    padding: 1rem 0;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
+
+
+
+
+@media screen and (min-width: 830px) {
+    
+  .detalles__imagen {
+      display: block;
+   
+     
+       
+      }}
+
+
+
 
 
 
           /*detalles__img*/
 
 .detalles__img{
-  width: 50%;
+  width: 100%;
   
   object-fit: cover;
 }
 
+
+
+@media screen and (min-width: 830px) {
+    
+  .detalles__img {
+    width: 50%
+   
+     
+       
+      }}
 
 
 
@@ -330,11 +360,27 @@ height: 15%;
   background-color: rgb(236, 236, 236);
   display: flex;
   flex-direction: column;
-  flex:1;
+  flex: 0;
   align-items: flex-start;
-  padding: 1rem;
+  padding:0;
+  flex-wrap: wrap;
  
 }
+
+
+
+
+
+@media screen and (min-width: 830px) {
+    
+  .detalles__content{
+    
+    
+     flex:1;
+     padding: 1rem;
+       
+      }}
+
 
 
 
@@ -344,8 +390,14 @@ height: 15%;
 
 .cerrar{
   display: flex;
-  align-items: baseline;
-  align-self: stretch;
+  text-align: center;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+    margin-left: -110px;
+    margin-top: -100px;
   
 }
 
@@ -356,7 +408,7 @@ height: 15%;
           /*detalles__titulo*/
 
 .detalles__titulo{
-  flex: 4;
+
   text-align: initial;
 }
 
@@ -365,10 +417,13 @@ height: 15%;
                   /*icono*/
 
 .icono{
- flex: 1;
-  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+
   cursor: pointer;
   font-size: 1.3rem;
+  width: 100%;
+  padding-right: 1rem;
 }
 
 
@@ -434,10 +489,37 @@ border: 1px solid;
 
 /*para hacer aparecer el bloque con class="detalles" */
 
-.display{
+.display2{
   display: flex;
 }
 
     
 
-   
+  .cerrar{
+    display: none;
+  }
+
+  @media screen and (min-width: 830px) {
+    
+.cerrar {
+    
+      
+      display: flex;
+     
+    }}
+
+
+
+
+    .fig{
+      display: block;
+    }
+  
+    @media screen and (min-width: 830px) {
+      
+  .fig {
+      
+        
+        display: none;
+       
+      }}

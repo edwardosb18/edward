@@ -41,11 +41,21 @@
 
         /*contacto__entrada*/
 
+.contacto__entrada{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
 /*medias*/
 @media screen and (min-width: 830px) {
  
   .contacto__entrada {
-    display: flex; } }
+    display: flex; 
+  flex-direction: row;} }
 
 
 
@@ -56,15 +66,19 @@
           /*contacto__formulario*/
 
       .contacto__formulario {
+        margin-top: 1.5rem;
         display: grid;
         grid-gap: 1.5rem;
         grid-template-rows: 2rem;
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem; 
+      order: 1;}
       
       /*medias*/
         @media screen and (min-width: 640px) {
           
           .contacto__formulario {
+            margin-top: 0rem;
+
             --fontsize-normal:1.5rem;
             font-size: var(--fontsize-normal); } }
       
@@ -219,7 +233,7 @@ background-color: gray;
       align-items: flex-start;
       margin-right: auto;
       margin-left: auto;
-      width: 30%;
+      width: 38%;
       font-size: .8rem;
 
     }

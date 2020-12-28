@@ -29,7 +29,7 @@ let icono=document.getElementById("icono"
 
 m_laminadora.addEventListener("click",()=>{
 
-laminadora.classList.add("display")
+laminadora.classList.add("display2")
 
 })
 
@@ -39,7 +39,7 @@ icono.addEventListener("click",()=>{
 
 
     
-     laminadora.classList.remove("display")}
+     laminadora.classList.remove("display2")}
 
 
 
@@ -82,7 +82,7 @@ let icono2=document.getElementById("icono2"
 
     m_selladora.addEventListener("click",()=>{
 
-selladora.classList.add("display")
+selladora.classList.add("display2")
 
 
     })    
@@ -90,7 +90,7 @@ selladora.classList.add("display")
     icono2.addEventListener("click",()=>{
     
       
-   selladora.classList.remove("display")
+   selladora.classList.remove("display2")
    
            })    
    
@@ -118,7 +118,7 @@ let icono3=document.getElementById("icono3"
 
     m_embalaje.addEventListener("click",()=>{
 
-embalaje.classList.add("display")
+embalaje.classList.add("display2")
 
 
     })    
@@ -126,7 +126,7 @@ embalaje.classList.add("display")
     icono3.addEventListener("click",()=>{
     
       
-   embalaje.classList.remove("display")
+   embalaje.classList.remove("display2")
    
            })    
    
@@ -153,7 +153,7 @@ let icono4=document.getElementById("icono4"
 
     sellador__vasos.addEventListener("click",()=>{
 
-        SelladorVasos.classList.add("display")
+        SelladorVasos.classList.add("display2")
 
 
     })    
@@ -164,7 +164,7 @@ let icono4=document.getElementById("icono4"
     icono4.addEventListener("click",()=>{
     
       
-   SelladorVasos.classList.remove("display")
+   SelladorVasos.classList.remove("display2")
    
            })    
    
@@ -188,7 +188,7 @@ let icono5=document.getElementById("icono5"
 
     maquina__ozono.addEventListener("click",()=>{
 
-        ozono.classList.add("display")
+        ozono.classList.add("display2")
 
 
     })    
@@ -199,7 +199,7 @@ let icono5=document.getElementById("icono5"
     icono5.addEventListener("click",()=>{
     
       
-        ozono.classList.remove("display")
+        ozono.classList.remove("display2")
    
            })    
    
@@ -223,7 +223,7 @@ let icono5=document.getElementById("icono5"
  
      esterilizador__uv.addEventListener("click",()=>{
  
-         uv.classList.add("display")
+         uv.classList.add("display2")
  
  
      })    
@@ -234,7 +234,7 @@ let icono5=document.getElementById("icono5"
      icono6.addEventListener("click",()=>{
      
        
-         uv.classList.remove("display")
+         uv.classList.remove("display2")
     
             })    
     
@@ -272,7 +272,7 @@ let icono5=document.getElementById("icono5"
  
      esterilizador__uvozono.addEventListener("click",()=>{
  
-        uvOzono.classList.add("display")
+        uvOzono.classList.add("display2")
  
  
      })    
@@ -283,7 +283,7 @@ let icono5=document.getElementById("icono5"
      icono7.addEventListener("click",()=>{
      
        
-        uvOzono.classList.remove("display")
+        uvOzono.classList.remove("display2")
     
             })    
     

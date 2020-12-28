@@ -53,6 +53,7 @@ figure {
 
 .politica {
   padding: 2rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column; }
 
@@ -60,7 +61,7 @@ figure {
   @media screen and (min-width: 830px) {
     
     .politica {
-      padding: 7rem;
+      padding: 0rem;
       flex-direction: row; } }
  
 
@@ -89,12 +90,15 @@ figure {
     display: flex;
     justify-content: center;
     margin: 1rem;
-    animation: politica__imagenes 2.5s; }
+    animation: politica__imagenes 2.5s;
+    order:1;
+   }
 
     /*medias*/
     @media screen and (min-width: 830px) {
       
       .politica__imagenes {
+        order: 0;
         flex: 1; } }
 /*animaciones*/
 /* @keyframes politica__imagenes {
@@ -108,7 +112,7 @@ figure {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  
   animation: politica__animacion 2s forwards;
 }
 
@@ -145,13 +149,14 @@ figure {
 
   .politica__content {
     animation: contacto__content 2.5s;
-    margin: 1rem; }
+    margin: 1rem; 
+  margin-top: 0;}
 
     /*medias*/
     @media screen and (min-width: 830px) {
       
       .politica__content {
-        margin: 1rem;
+      
         flex: 1;
         text-align: left; } }
 
@@ -170,6 +175,7 @@ figure {
   .politica__titulo {
     color: var(--color-botones);
     font-size: var(--fontsize-titulo);
+    margin-top: 0;
      }
 
 
@@ -177,6 +183,7 @@ figure {
     @media screen and (min-width: 830px) {
       
       .politica__titulo {font-size: 40px;
+        margin-top: 32px;
          } }
 
         
@@ -187,7 +194,7 @@ figure {
     /*politica__subtitulo, politica__tercerSub*/
   .politica__subtitulo, .politica__tercerSub {
     font-size: var(--fontsize-normal);
-    margin-top: 2rem; }
+    margin-top: 2rem; display: flex;}
 
 
 
@@ -214,7 +221,8 @@ figure {
 
 
   .politica__precio {
-    font-weight: bold; }
+    margin-left: 2rem;
+    }
 
 
 
@@ -230,3 +238,22 @@ figure {
     @keyframes animado{
       from {
         transform: scale(0); } }
+
+        .politica__provinciaT{margin-left: 2rem;
+        display: flex;}
+
+        .politica__lugares{
+          margin-left: 3rem;
+        }
+        .cotisacio{
+          display: block;
+        }
+
+        .fa-map-marker-alt{margin-right: .2rem;}
+
+        .fa-user-check{margin-right: .2rem;}
+        .fa-tag,.fa-car-side,.politica__tercerSub,.politica__subtitulo{margin-right: .2rem;}
+       
+
+       
+        
