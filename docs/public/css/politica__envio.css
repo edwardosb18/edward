@@ -225,10 +225,13 @@ figure {
 
   .politica__subtitulo {
     margin-top: .8rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+  font-size:1.2rem }
 
 
-
+  .politica__tercerSub{
+    font-size: 1.1rem;
+  }
 
               /* politica__provincia*/
 

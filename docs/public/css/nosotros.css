@@ -422,7 +422,7 @@ and valores__imagen:nth-child(2)*/
       /*.certificaciones */
 
 .certificaciones {
-  padding: 4rem;
+  padding: 2rem;
   padding-top:.2rem ;
   background-color:var(--color-botones);
  }
@@ -434,7 +434,7 @@ and valores__imagen:nth-child(2)*/
 
 .certificaciones__amimacion{
   background-color:var(--color-botones);
-  padding: 1rem;
+ 
   text-align: center;
   animation: certificaciones__amimacion 4s  ;
   animation-play-state: var(--stop1);
