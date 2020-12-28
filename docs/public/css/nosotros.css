@@ -501,12 +501,15 @@ animation: certificaciones__titulo 3s  ;
      
       .certificaciones__titulo {
     --fontsize-titulo:2.5rem;}
+
+    @keyframes certificaciones__titulo {
+      from {opacity:0;transform: translate(100%);}
+      
+    }
+
         }
 /*animacion*/
-@keyframes certificaciones__titulo {
-  from {opacity:0;transform: translate(100%);}
-  
-}
+
         
 
 

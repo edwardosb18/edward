@@ -293,11 +293,22 @@ height: 15%;
   z-index: 40;
   top:1px;
   right: 0;
-  padding: 5rem;
+  padding: 6rem 1rem;
   margin: 0;
   display: none;
   justify-content: center;
 }
+
+
+
+@media screen and (min-width: 830px) {
+    
+  .detalles {
+     
+    padding: 5rem;
+     
+       
+      }}
 
 
 
@@ -524,6 +535,7 @@ border: 1px solid;
     .fig{
       display: block;
       padding-left: 26px;
+      margin-top: 1rem;
     }
   
     @media screen and (min-width: 830px) {
