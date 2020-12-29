@@ -213,19 +213,19 @@ figure {
 
 
 .margin1 {
-  margin-left: -2.5px;
+  margin-left: -1.5px;
 }
 @media screen and (min-width: 830px) {
 
   .margin1 {
 
-    margin-left: -4px;
+    margin-left: -5px;
   }
 }
 
 .margin2 {
 
-  margin-left: 6px;
+  margin-left: 8px;
 }
 
 @media screen and (min-width: 830px) {
@@ -239,7 +239,7 @@ figure {
 
 .margin3 {
 
-  margin-left: -2px;
+  margin-left: 1px;
 }
 
 @media screen and (min-width: 830px) {
