@@ -206,7 +206,7 @@ font-size:var(--fontsize-normal);}
 
       /* nosotros__img */
       .nosotros__mision{
-        height: 45vh;
+        height: 14vh;
       }
 
 .nosotros__img {
@@ -219,8 +219,15 @@ font-size:var(--fontsize-normal);}
 }
 
 /*medias*/
+@media screen and (min-width: 474px) {
+  .nosotros__mision{
+    height: 22vh;
+  }}
+
   @media screen and (min-width: 830px) {
-   
+    .nosotros__mision{
+      height: 45vh;
+    }
     .nosotros__img {
       width: 412px;
       height: 264px; } }
@@ -275,7 +282,7 @@ justify-content: center; }
       /*valores__img */
 
 .valores__img {
-  width: 70%;
+  width: 85%;
   height: 100%;
   object-fit: cover; }
 
