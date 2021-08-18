@@ -205,8 +205,13 @@ font-size:var(--fontsize-normal);}
      
 
       /* nosotros__img */
+      .nosotros__mision{
+        height: 302px;
+      }
 
 .nosotros__img {
+  height: 90%;
+  object-fit: cover;
   width: 80%; 
   display: block;
   margin-left: auto;
@@ -246,15 +251,18 @@ flex-direction: column;
   /*valores__header*/
 
   .valores__header {
+    padding: 1rem;
     order:2;
     display: flex;
     align-items: center;
-  margin:0; }
+  margin:0;
+justify-content: center; }
   
     /*medias*/
     @media screen and (min-width: 830px) {
       
       .valores__header {
+        padding-right: 0;
         order:0;
         flex: 1;
          } }
@@ -267,7 +275,7 @@ flex-direction: column;
       /*valores__img */
 
 .valores__img {
-  width: 100%;
+  width: 70%;
   height: 100%;
   object-fit: cover; }
 
@@ -294,7 +302,12 @@ flex-direction: column;
 
   @media screen and (min-width: 830px) {
    
+    .valores__img { width: 52%;}
+
+
+
     .valores__iconos {
+      margin-top: 2.5rem;
       flex: 1;
       width: 30%;
       display: flex;
@@ -318,7 +331,7 @@ flex-direction: column;
       /*.valores__titulo */
 
       .valores__titulo {
-        margin-top: 1rem;
+       
         margin-bottom: 0;
         text-align: center;
         color: var(--color-prymario);
@@ -346,6 +359,7 @@ flex-direction: column;
 @media screen and (min-width: 830px) {
   
   .valores__imagenes {
+    height: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
