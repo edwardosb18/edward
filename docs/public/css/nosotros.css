@@ -222,6 +222,7 @@ font-size:var(--fontsize-normal);}
 @media screen and (min-width: 474px) {
   .nosotros__mision{
     height: 47vw;
+    width: 100%;
   }}
 
   @media screen and (min-width: 830px) {
@@ -238,7 +239,7 @@ font-size:var(--fontsize-normal);}
       /* valores*/
 .valores {
   
-
+padding-top: 1.5rem;
 display: flex;
 flex-direction: column;
 
