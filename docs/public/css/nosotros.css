@@ -206,11 +206,11 @@ font-size:var(--fontsize-normal);}
 
       /* nosotros__img */
       .nosotros__mision{
-        height: 302px;
+        height: 200px;
       }
 
 .nosotros__img {
-  height: 90%;
+  height: 77%;
   object-fit: cover;
   width: 80%; 
   display: block;
