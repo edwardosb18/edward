@@ -206,11 +206,11 @@ font-size:var(--fontsize-normal);}
 
       /* nosotros__img */
       .nosotros__mision{
-        height: 14vh;
+        height: 47vw;
       }
 
 .nosotros__img {
-  height: 100%;
+  height: 97%;
   object-fit: cover;
   width: 80%; 
   display: block;
@@ -221,7 +221,7 @@ font-size:var(--fontsize-normal);}
 /*medias*/
 @media screen and (min-width: 474px) {
   .nosotros__mision{
-    height: 22vh;
+    height: 47vw;
   }}
 
   @media screen and (min-width: 830px) {
