@@ -60,14 +60,16 @@
    }
 
 /*medias*/
-.dd{
+.dd{padding: .5rem 0;
   text-align: center;color: white;
   font-weight: bold;text-shadow: .5px .5px gray;
 }
 @media screen and (min-width: 830px) {
   .texto_mecanic{ font-size: 1.2rem;}
   /* line 450, scss/index.scss */
-
+  .dd{
+   font-size: 1.5rem;
+  }
   .panel {
     height: 47rem;
     background-attachment: fixed;

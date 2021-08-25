@@ -170,17 +170,15 @@ figure,h2{margin: 0;}
         grid-template-columns: repeat(4, 1fr);
         margin: 5rem; } }
 
-.dd{
-  text-align: center;
-}
+
 .productos__multimedia{
   height: 40vw;
 }
-.e{    width: 58%;
-  object-fit: contain;
-  display: block;
+.e{        width: 100%;
+  object-fit: cover;
+  /* display: block; */
   height: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto;
 }
 
 
