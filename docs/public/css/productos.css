@@ -171,8 +171,14 @@ figure,h2{margin: 0;}
         margin: 5rem; } }
 
 
-
-
+.productos__multimedia{
+  height: 40vw;
+}
+.e{
+  width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
 
 
 
