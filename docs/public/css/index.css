@@ -18,9 +18,32 @@
       background-color: var(--color-primario1);
       border: 2px solid gray; } }
 
-
-
-
+.generales{
+  list-style: none;
+  padding-left: 0;
+}
+.imgc{
+  width: 100%;
+}
+.servicios{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(4, 156, 155);
+  margin-top: 2rem;
+}
+.title_m{
+  font-size: 1.5rem;
+}
+.texto_mecanic{
+  flex: 1;
+  justify-content: center;
+  font-size: 1.2rem;
+      /* padding: 2rem; */
+      padding: 0 2rem;
+      /* height: 537px; */
+      display: flex;
+      flex-direction: column;
+}
       /*panel*/
 
 .panel {
@@ -250,7 +273,7 @@ display: block; }
 .video {
   color: white;
   background-color:var(--color-botones);
-  padding-bottom: 2rem;
+  
   display: flex;
   animation: video 3s forwards ;
   animation-play-state: var(--stop6); }
@@ -264,7 +287,7 @@ display: block; }
         /*video__texto*/
 
 .video__texto {
-  display: none; }
+ }
 
   /*medias*/
   @media screen and (min-width: 830px) {
@@ -276,7 +299,7 @@ display: block; }
       display: flex;
       align-items: center;
       justify-content: center;
-      padding-left: 80px;
+      
       text-align: center; } }
 
 
@@ -288,8 +311,14 @@ display: block; }
 .video__item {
   width: 100%; }
   /*media */
+
+  .video{
+    flex-direction: column;
+  }
   @media screen and (min-width: 830px) {
- 
+ .video{
+   flex-direction: row;
+ }
     .video__item {
       flex: 1;
       width: 54%;
